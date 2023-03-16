@@ -1,47 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Md Mosleh Uddin</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
-    <style>
-        #header {
-            text-align: center;
-            padding-top: 30px;
-            padding-bottom: 30px;
-            background-color: #343a40;
-            color: #fff;
-        }
-        #footer {
-            text-align: center;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            background-color: #343a40;
-            color: #fff;
-        }
-        #header h1 {
-            font-size: 50px;
-        }
-        #contact-info {
-            margin-top: 50px;
-            text-align: center;
-        }
-        #contact-info td {
-            padding: 0 20px;
-            font-size: 20px;
-        }
-        .icon {
-            margin-right: 10px;
-            font-size: 20px;
-        }
-    </style>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Md Mosleh Uddin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
   <style>
     body {
       background-color: #f7f7f7;
@@ -53,7 +18,7 @@
       padding: 40px;
       background-color: #fff;
       border-radius: 10px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     }
 
     h1 {
@@ -66,71 +31,104 @@
       margin-bottom: 10px;
     }
 
-    .embed-responsive {
-      border: 1px solid #ddd;
-      background-color: #f5f5f5;
-      margin: 20px 0;
+    #header {
+      text-align: center;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      background-color: #343a40;
+      color: #fff;
     }
 
-    .embed-responsive-item {
-      border: none;
+    #footer {
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: #343a40;
+      color: #fff;
     }
 
-    .contact-info {
-      margin-top: 40px;
+    #header h1 {
+      font-size: 50px;
     }
 
-    .contact-info a {
-      display: block;
-      margin-bottom: 10px;
-      color: #555;
-      text-decoration: none;
+    #contact-info {
+      margin-top: 50px;
+      text-align: center;
     }
 
-    .contact-info a:hover {
-      color: #333;
-      text-decoration: none;
+    #contact-info td {
+      padding: 0 20px;
+      font-size: 20px;
     }
 
-    .contact-info i {
+    .icon {
       margin-right: 10px;
+      font-size: 20px;
     }
+
+    .contact-div {
+      margin-top: 50px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .contact-div a {
+      font-size: 20px;
+    }
+
+    .contact-margin {
+      padding: 0 40px;
+    }
+
 
     @media (max-width: 768px) {
       .container {
         padding: 20px;
       }
-      
+
+      .contact-div {
+        flex-direction: column;
+        padding-left: 20px;
+      }
+
+      .contact-margin {
+        padding: 0 0px;
+      }
+
       h1 {
-        font-size: 28px;
+        font-size: 22px;
       }
     }
   </style>
 </head>
+
 <body>
-    <div id="header">
-        <h1>Md Mosleh Uddin's Portfolio</h1>
+  <div id="header">
+    <h1>Md Mosleh Uddin's Portfolio</h1>
+  </div>
+
+  <div class="contact-div">
+    <div>
+      <i class="fas fa-envelope icon"></i> <a href="mailto:mohammadasad5059@gmail.com">mohammadasad5059@gmail.com</a>
     </div>
-    <div id="contact-info">
-        <table align="center">
-            <tr>
-                <td><i class="fas fa-envelope icon"></i> <a href="mailto:mohammadasad5059@gmail.com">mohammadasad5059@gmail.com</a></td>
-                <td><i class="fas fa-phone icon"></i> <a href="tel:+8801846281924">+8801846281924</a></td>
-                <td><i class="fab fa-linkedin icon"></i> <a href="https://linkedin.com/in/asad5059">asad5059</a></td>
-            </tr>
-        </table>
+    <div class="contact-margin">
+      <i class="fas fa-phone icon"></i> <a href="tel:+8801846281924">+8801846281924</a>
     </div>
-    <div class="container mt-5">
-        <embed src="Mosleh_Uddin.pdf" type="application/pdf" width="100%" height="600px"/>
+    <div>
+      <i class="fab fa-linkedin icon"></i> <a href="https://linkedin.com/in/asad5059">asad5059</a>
     </div>
-    <div id="footer" align = "center">
-      <p>Copyright ©2023.
-          <span><i class="fab fa-codepen"></i> </span> by Md Mosleh Uddin. All rights reserved.</p>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </div>
+  <div class="container mt-5">
+    <embed src="Mosleh_Uddin.pdf" type="application/pdf" width="100%" height="600px" />
+  </div>
+  <div id="footer" align="center">
+    <p>Copyright ©2023.
+      <span><i class="fab fa-codepen"></i> </span> by Md Mosleh Uddin. All rights reserved.
+    </p>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
+
 </html>
-
-
